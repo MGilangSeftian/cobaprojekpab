@@ -1,3 +1,4 @@
+import 'package:cobaprojekpab/Screens/tampilan_detailNovel.dart';
 import 'package:cobaprojekpab/widget/itemcard.dart';
 import 'package:flutter/material.dart';
 import 'package:cobaprojekpab/data_list_novel/data_novel.dart';
@@ -141,7 +142,14 @@ class _TampilanHomeState extends State<TampilanHome> {
                   itemBuilder: (context, index) {
                     final novel = filterKategori[index];
                     return GestureDetector(
-                      onTap: (){},
+                      onTap: (){
+                        Navigator.push(
+                            context, 
+                          MaterialPageRoute(
+                              builder: (context) => TampilanDetailnovel(novel: novels[index]),
+                          ),
+                        );
+                      },
                       child: Itemcart(novel: novel),
                     );
                   },
