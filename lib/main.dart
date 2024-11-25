@@ -1,3 +1,4 @@
+import 'package:cobaprojekpab/Screens/tampilan_profile.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: TampilanProfile(),
     );
   }
 }
