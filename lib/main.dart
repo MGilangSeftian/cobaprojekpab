@@ -1,4 +1,7 @@
+
 import 'package:cobaprojekpab/Screens/tampilan_home.dart';
+import 'package:cobaprojekpab/Screens/tampilan_profile.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,6 +22,8 @@ class MyApp extends StatelessWidget {
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
       home: TampilanHome(),
+      home: TampilanProfile(),
+
     );
   }
 }
