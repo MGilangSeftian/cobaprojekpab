@@ -43,7 +43,7 @@ class _ItemcartState extends State<Itemcart> {
               padding: EdgeInsets.only(left: 16, bottom: 8),
             child: Text(
               widget.novel.author,
-              style: TextStyle(fontSize: 12),
+              style: TextStyle(fontSize: 14),
             ),
           )
         ],

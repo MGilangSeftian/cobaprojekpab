@@ -20,7 +20,6 @@ class _TampilanFavoriteState extends State<TampilanFavorite> {
           ),
         ),
         backgroundColor: Colors.indigo,
-        centerTitle: true,
       ),
     );
   }
