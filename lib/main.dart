@@ -3,6 +3,7 @@ import 'package:cobaprojekpab/Screens/Tampilan_Login.dart';
 import 'package:cobaprojekpab/Screens/tampilan_detailNovel.dart';
 import 'package:cobaprojekpab/Screens/tampilan_home.dart';
 import 'package:cobaprojekpab/Screens/tampilan_profile.dart';
+import 'package:cobaprojekpab/Screens/tampilan_register.dart';
 import 'package:cobaprojekpab/data_list_novel/data_novel.dart';
 
 import 'package:flutter/material.dart';
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
       // // home: const MyHomePage(title: 'Flutter Demo Home Page'),
       // home: TampilanHome(),
       // home: TampilanProfile(),
-      home: TampilanLogin(),
+      // home: TampilanLogin(),
+      home: TampilanRegister(),
     );
   }
 }
