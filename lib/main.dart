@@ -1,4 +1,5 @@
 
+import 'package:cobaprojekpab/Screens/Tampilan_Login.dart';
 import 'package:cobaprojekpab/Screens/tampilan_detailNovel.dart';
 import 'package:cobaprojekpab/Screens/tampilan_home.dart';
 import 'package:cobaprojekpab/Screens/tampilan_profile.dart';
@@ -23,8 +24,10 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: TampilanHome(),
+      // home: TampilanHome(),
       // home: TampilanProfile(),
+      home: TampilanLogin(),
     );
   }
 }
+
